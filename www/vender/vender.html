@@ -1,0 +1,32 @@
+<ion-view view-title="Vender">
+  <ion-content>
+		<div class="list">
+			<label class="item item-input">
+				<span class="input-label">Nombre Producto</span>
+				<input type="text" placeholder="Escribe un nombre para el Producto">
+			</label>
+			<label class="item item-input">
+				<span class="input-label">Precio</span>
+				<input type="text" placeholder="Escribe un precio">
+			</label>
+			<label class="item item-input">
+				<span class="input-label">Cantidad</span>
+				<input type="text" placeholder="Mayor a 0">
+			</label>
+			<label class="item item-input">
+				<span class="input-label">Imagen</span>
+				<input type="text" placeholder="Copia la URL">
+			</label>
+			<label class="item item-input">
+				<span class="input-label">Observaciones</span>
+				<input type="text" placeholder="Comments">
+			</label>
+			<ion-toggle ng-model="notificacionesOn">Enviar Notificaciones</ion-toggle>
+			<div class="item item-divider">
+				Recibir Notificaciones Sobre
+			</div>
+			<ion-checkbox ng-model="preferencia1" ng-value="Apple">Apple</ion-checkbox>
+			<ion-checkbox ng-model="preferencia2" ng-value="Apple">Android</ion-checkbox>
+		</div>
+	</ion-content>
+</ion-view>
